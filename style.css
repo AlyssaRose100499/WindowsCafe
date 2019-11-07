@@ -4,7 +4,7 @@
 	font-family: Century Gothic;
 	background-color: black;
 }
-
+/* Start of Home Page */
 header{
 	background-image: url();
 	height: 100vh;
@@ -96,3 +96,17 @@ ul li.active a{
 			margin-bottom: -110px;
 		}
 	}
+
+/* End of Home Page */
+
+/* Start of About Us */
+/* End of About Us */
+
+/* Start of Gallery */
+/* End of Gallery */
+
+/* Start of Menu */
+/* End of Menu */
+
+/* Start of Contact */
+/* End of Contact */

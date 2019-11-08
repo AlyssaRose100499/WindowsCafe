@@ -70,8 +70,8 @@ ul li.active a{
 	font-size: 100px;
 	font-weight: 700px;
 	letter-spacing: 8px;
-	margin-bottom: 40px;
-	background:black;
+	/*margin-bottom: 40px; 
+	background:black;*/
 	position: relative;
 	animation: text 3s 1;
 }

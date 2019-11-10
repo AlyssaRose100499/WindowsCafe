@@ -1,49 +1,45 @@
-*{
-	margin: 0;
-	padding: 0;
-	font-family: Century Gothic;
-	background-color: gray;
-}
-/* Start of Home Page */
-header{
-	background-image: url();
+
+
+/* ------------------------------------Start of Home Page-------------------------------------------------- */
+body.class-for-home{
+	background-image: url(./images/1.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
-	margin-top: 25px;
+	
 }
 
-ul{
+ul.navbar{
 	float: right;
 	list-style-type: none;
+	margin-top: 25px;
+
 }
 
-ul li{
+ul.navbar li{
 	display: inline-block;
 }
 
-ul li a{
+ul.navbar li a{
 	text-decoration: none;
 	color: #fff;
 	padding: 5px 20px;
 	border: 1px solid transparent;
 	transition: 0.6s ease;
+	margin: 10px;
 }
 
-ul li a:hover{
+ul.navbar li a:hover{
 	background-color: #fff;
 	color: #000;
 }
 
-ul li.active a{
-	background-color: #fff;
-	color: #000;
-}
 
 .logo img{
 	float: left;
 	width: 150px;
 	height: auto;
+	margin-top: 25px;
 }
 
 .main{
@@ -55,8 +51,8 @@ ul li.active a{
 	position: absolute;
 	text-align: center;
 	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	left: 30%;
+	transform: translate(-50%, -30%);
 	width: 100%;
 }
 
@@ -68,10 +64,8 @@ ul li.active a{
 
 .text1{
 	font-size: 100px;
-	font-weight: 700px;
+	font-weight: 100px;
 	letter-spacing: 8px;
-	/*margin-bottom: 40px; 
-	background:black;*/
 	position: relative;
 	animation: text 3s 1;
 }
@@ -83,30 +77,153 @@ ul li.active a{
 
 @keyframes text{
 		0%{
-			color:black;
-			margin-bottom: -110px;
+			color: transparent;
 
 		}
 		30%{
 			letter-spacing: 25px;
-			margin-bottom: -110px;
 		}
 		85%{
 			letter-spacing: 8px;
-			margin-bottom: -110px;
 		}
 	}
 
-/* End of Home Page */
+section.time{
+	padding: 100px 800px;
+	align-items: center;
+	display: flex;
+	
+}
 
-/* Start of About Us */
-/* End of About Us */
+.box{
+	position: relative;	
+	max-width: 600px;
+	padding: 50px;
+	background: rgba(255,255,255,.2);
+	box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
 
-/* Start of Gallery */
-/* End of Gallery */
+.box h2{
+	text-transform: uppercase;
+	margin: 0 0 20px;
+	padding: 0;
+	font-size: 48px;
+	color: black;
+}
 
-/* Start of Menu */
-/* End of Menu */
+.box p{
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
 
-/* Start of Contact */
-/* End of Contact */
+}
+/* ------------------------------------End of Home Page-------------------------------------------------- */
+
+
+
+
+/* ------------------------------------Start of About Us------------------------------------------------ */
+body.class-for-about{
+	background-image: url(./images/2.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	
+}
+/* --------------------------------------End of About Us------------------------------------------------ */
+
+
+
+
+/* ------------------------------------Start of Gallery------------------------------------------------ */
+body.class-for-gallery{
+	background-image: url(./images/1.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+
+}
+/* ------------------------------------End of Gallery------------------------------------------------ */
+
+
+
+
+/* ------------------------------------Start of Menu------------------------------------------------ */
+body.class-for-menu{
+	background-image: url(./images/2.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+
+
+}
+/* ------------------------------------End of Menu------------------------------------------------ */
+
+
+
+
+/* ------------------------------------Start of Contact------------------------------------------------ */
+body.class-for-contact{
+	margin: 0;
+	padding: 0;
+	text-align:center;
+	background: url(./images/1.jpg);
+	background-size: cover;
+	font-family: century gothic;
+	height:100vh;
+}
+.contact-form{
+  width: 85%;
+  max-width: 600px;
+  background: transparent;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 30px 40px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 20px #000000b3;
+  
+}
+
+.contact-form h1{
+  margin-top:0;
+  font-weight: 200;
+}
+
+.txtb{
+  border: 1px solid gray;
+  margin: 8px 0;
+  padding: 12px 18px;
+  border-radius: 8px;
+}
+
+.txtb input, .txtb textarea{
+  width:100%;
+  border:none;
+  background: none;
+  outline:none;
+  font-size: 18px;
+  margin-top: 6px
+
+} 
+
+.btn{
+  display: inline-block;
+  background: #9b59b6;
+  padding: 14px 0;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 8px;
+  width: 100%;
+}
+.yes{
+  max-width: 600px;
+  margin:auto;
+  padding: 0 10px;
+  overflow: hidden;
+}
+/* ------------------------------------End of Contact------------------------------------------------ */

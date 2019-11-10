@@ -6,52 +6,23 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<header>
+	<body class="class-for-gallery">
 		<div class="main">
 			<div class="logo">
-				<img src="    		" alt="		">
+				<img src="./images/1.jpg" alt="">
 			</div>
-			<ul>
-				<li class="active"><a href="Home.html">Home</a></li>
+			<ul class="navbar">
+				<li><a href="Home.html">Home</a></li>
 				<li><a href="About_Us.html">About Us</a></li>
 				<li><a href="Gallery.html">Gallery</a></li>
 				<li><a href="Menu.html">Menu</a></li>
 				<li><a href="Contact.html">Contact</a></li>
 			</ul>
 		</div>
-	</header>
 
-	<img src="Pict_1.jpeg" width="300" height="111">
-	<img src="Pict_2.jpeg" width="300" height="111">
-	<img src="Pict_3.jpeg" width="300" height="111">
+	<img src="./gallery/Pict_1.jpg" width="300" height="111">
+	<img src="./gallery/Pict_2.jpg" width="300" height="111">
+	<img src="./gallery/Pict_3.jpg" width="300" height="111">
 
-<!-- Slide Show Images for Homepage -->
-	
-			<div class="w3-content w3-section" style="max-width:500px">	
-  <img class="mySlides w3-animate-fading" src="Images/Logo.jpg" style="width:100%">
-  <img class="mySlides w3-animate-fading" src="Images/Milktea.jpg" style="width:100%">
-  <img class="mySlides w3-animate-fading" src="img_rr_03.jpg" style="width:100%">
-  <img class="mySlides w3-animate-fading" src="img_rr_04.jpg" style="width:100%">
-</div>
-				
-		<script>
-var myIndex = 0;
-carousel();
-
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 9000);    
-}
-</script>
-
-
-<!-- Slide Show Images for Homepage -->
 </body>
 </html>

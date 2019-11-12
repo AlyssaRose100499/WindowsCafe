@@ -137,12 +137,13 @@ body.class-for-about{
 
 /* ------------------------------------Start of Gallery------------------------------------------------ */
 body.class-for-gallery{
-	background-image: url(./images/1.jpg);
+	background-image: url(./Gallery/71afa8c9c55bb9e374ccbfa0c342597e.jpg); 
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
 
 }
+
 * {
   box-sizing: border-box;
 }

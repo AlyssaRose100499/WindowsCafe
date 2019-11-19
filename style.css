@@ -37,9 +37,10 @@ ul.navbar li a:hover{
 
 .logo img{
 	float: left;
-	width: 150px;
+	width: 200px;
 	height: auto;
-	margin-top: 25px;
+	margin-top: 40px;
+
 }
 
 .main{
@@ -153,9 +154,9 @@ body {
   font-family: Arial;
 }
 
-.header {
+div.title2 {
   text-align: center;
-  padding: 32px;
+  padding: 80px;
 }
 
 .row {

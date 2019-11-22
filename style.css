@@ -1,8 +1,6 @@
-
-
 /* ------------------------------------Start of Home Page-------------------------------------------------- */
 body.class-for-home{
-	background-image: url(./images/1.jpg);
+	background-image: url(1.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
@@ -37,9 +35,10 @@ ul.navbar li a:hover{
 
 .logo img{
 	float: left;
-	width: 200px;
-	height: auto;
-	margin-top: 40px;
+	width: 500px;
+	height: 300px;
+	margin-top: 250px;
+
 
 }
 
@@ -51,14 +50,14 @@ ul.navbar li a:hover{
 .title{
 	position: absolute;
 	text-align: center;
-	top: 50%;
+	top: 10%;
 	left: 30%;
 	transform: translate(-50%, -30%);
 	width: 100%;
 }
 
 .title h1 {
-	color: #fff;
+	color: #fffff;
 	text-transform: uppercase;
 	display: block;
 }
@@ -90,7 +89,7 @@ ul.navbar li a:hover{
 	}
 
 section.time{
-	padding: 100px 800px;
+	padding: 10px 200px;
 	align-items: center;
 	display: flex;
 	
@@ -98,7 +97,7 @@ section.time{
 
 .box{
 	position: relative;	
-	max-width: 600px;
+	max-width: 500px;
 	padding: 50px;
 	background: rgba(255,255,255,.2);
 	box-shadow: 0 5px 15px rgba(0,0,0,.5);
@@ -124,13 +123,15 @@ section.time{
 
 
 /* ------------------------------------Start of About Us------------------------------------------------ */
+
 body.class-for-about{
-	background-image: url(./images/2.jpg);
+	background-image: url(bg.jpg);
 	height: 100vh;
 	background-size: cover;
 	background-position: center;
 	
 }
+
 /* --------------------------------------End of About Us------------------------------------------------ */
 
 
@@ -151,7 +152,7 @@ body.class-for-gallery{
 
 body {
   margin: 0;
-  font-family: Arial;
+  font-family: brazilian origin;
 }
 
 div.title2 {

@@ -1,1 +1,64 @@
-hello world
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Windows Cafe</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="class-for-home">
+		<div class="main">
+			<div class="logo">
+				<img src="./images/1.jpg" alt="">
+			</div>
+			<ul class="navbar">
+				<li><a href="Home.html">Home</a></li>
+				<li><a href="About_Us.html">About Us</a></li>
+				<li><a href="Gallery.html">Gallery</a></li>
+				<li><a href="Menu.html">Menu</a></li>
+				<li><a href="Contact.html">Contact</a></li>
+			</ul>
+		</div>
+
+		<div class="title">
+			<h1 class="text1">Windows <br> Cafe</h1>
+		</div>
+		<section class="time">
+			<div class="box">
+				<h2>Time</h2>
+				<p>kjfsdkfhskjhdfksj <br>kflsjdkfshfkshkjdf <br><br>ksjakdhkajhsd</p>
+			</div>
+		</section>
+
+
+
+
+<!-- Slide Show Images for Homepage -->
+	
+			<div class="w3-content w3-section" style="max-width:500px">	
+  <img class="mySlides w3-animate-fading" src="Images/Logo.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="Images/Milktea.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="img_rr_03.jpg" style="width:100%">
+  <img class="mySlides w3-animate-fading" src="img_rr_04.jpg" style="width:100%">
+</div>
+				
+		<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 9000);    
+}
+</script>
+
+
+<!-- Slide Show Images for Homepage -->
+</body>
+</html>
